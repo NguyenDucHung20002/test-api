@@ -24,7 +24,7 @@ const UserSchema = new Schema(
   },
   {
     timeStams: true,
-    collection: "users",
+    collection: "hungpro",
   }
 );
 
