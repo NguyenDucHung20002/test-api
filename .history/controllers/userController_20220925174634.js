@@ -36,7 +36,7 @@ exports.getAllUser = async (req, res) => {
 exports.updateUser = async (req, res) => {
   try {
     await User.findByIdAndUpdate(req.params.id, req.body);
-    res.status(200).json("sucsess");
+    res.status(200).json("sucsses");
     console.log("thanh cong");
   } catch (err) {
     res.status(500).json(err);

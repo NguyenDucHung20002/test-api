@@ -23,7 +23,6 @@ const userRoutes = require("./routes/userRuotes");
 const productRoutes = require("./routes/productRoutes");
 
 app.use("/api", productRoutes);
-app.use("/api", userRoutes);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
